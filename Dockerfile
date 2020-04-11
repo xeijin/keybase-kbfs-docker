@@ -2,6 +2,7 @@ FROM debian:10-slim
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
       perl-modules-5.28 \
+      git \
       apt-utils \
       gosu \
       curl && \
